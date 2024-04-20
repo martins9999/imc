@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Imc</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora IMC</h1>
+        <div class="content-input">
+                <label>Nome</label>
+                <div class="c-input">
+                    <input type="text" id="nome" placeholder="Digite seu nome"/>
+                </div>
+                <label>Altura</label>
+                <div class="c-input">
+                    <input type="number" id="altura" value="155" />
+                    <div class="med">Cm</div>
+                </div>
+                <label>Peso</label>
+                <div class="c-input">
+                    <input type="number" id="peso" value="60"/>
+                    <div class="med">Kg</div>
+                </div>
+        </div>
+
+        <button id="button" onclick="imcCalc()">Calcular IMC</button>
+        <div id="resultado"></div>
+        <div id="img"></div>
+        <footer>
+            <span>&copy; Dev: Túlio Martins</span>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
